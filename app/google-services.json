@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "492974790778",
+    "project_id": "testforcpd",
+    "storage_bucket": "testforcpd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492974790778:android:3941f9331a9fc90c8e43c3",
+        "android_client_info": {
+          "package_name": "com.example.testnort"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492974790778-rmmseropqalluncceqq96tmgv31m2o0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAYvLDSHdIXpuS19ssght3SBERFbAIgk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492974790778-rmmseropqalluncceqq96tmgv31m2o0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <ImageButton
+           android:id="@+id/UseForAbleLator"
+           android:layout_marginTop="200dp"
+           android:layout_marginLeft="100dp"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:onClick="Monclick"
+           android:src ="@drawable/ab"
+           android:scaleType="fitXY"
+           android:background="@android:color/transparent"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/UseForAbleLator"
+           android:layout_marginLeft="100dp"
+           android:layout_marginTop="10dp"
+           android:text="에이블레이터"
+           android:textSize="18dp"/>
+
+
+       <ImageButton
+           android:id="@+id/CallTheSteff"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_toRightOf="@id/UseForAbleLator"
+           android:layout_marginTop="200dp"
+           android:layout_marginLeft="30dp"
+           android:text="직원호출"
+           android:onClick="CallTheStaff"
+           android:src="@drawable/st"
+           android:adjustViewBounds="true"
+           android:scaleType="fitStart"
+           android:background="@android:color/transparent"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/CallTheSteff"
+           android:text="역무원 호출"
+           android:layout_marginLeft="240dp"
+           android:layout_marginTop="10dp"
+           android:textSize="18dp"/>
+
+       <ImageView
+           android:layout_marginTop="600dp"
+           android:layout_marginLeft="300dp"
+           android:layout_width="150dp"
+           android:layout_height="200dp"
+           android:src="@drawable/logo"/>
+       <ImageButton
+           android:id="@+id/HowToUse"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_below="@id/UseForAbleLator"
+           android:layout_marginLeft="100dp"
+           android:layout_marginTop="50dp"
+           android:onClick="ClickHowToUse"
+           android:src="@drawable/in"
+           android:scaleType="fitXY"
+           android:background="@android:color/transparent"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/HowToUse"
+           android:text="사용법"
+           android:layout_marginLeft="130dp"
+           android:layout_marginTop="10dp"
+           android:textSize="18dp"/>
+
+
+
+
+   </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
